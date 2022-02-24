@@ -6,7 +6,7 @@ function DebugPrint(str)
 		return print("BLACKJACK: "..tostring(str))
 	end
 end
-
+--[[
 elevator_roof_location = {
 	["x"] = 930.0716,
 	["y"] = 33.86854,
@@ -19,7 +19,7 @@ elevator_entrance_location = {
 	["z"] = 112.553,
 	["a"] = 53.0310745
 }
-
+--]]
 tables = { -- Spawns Ped Only -- Setup Currently For This https://forum.cfx.re/t/cayo-perico-casino-dlc-ipl-loader/2099391
 	{
 		coords = vector4(996.17, 51.69, 68.45, 318.91),
